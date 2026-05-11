@@ -1,6 +1,7 @@
 # Geometry Assistant with LangChain and Gemini
 
 This repository contains `run.py`, a Python script that leverages LangChain, Google's Gemini 2.5 Flash model, and Pydantic to solve geometric coordinate problems and execute multi-step movement instructions using AI tool calling.
+Tìm tọa độ của một điểm thông qua việc mô tả logic về tọa độ của điểm đó và mô tả điểm muốn dịch đến, trước tiên llm parsing nó thành hai yêu cầu trả về một structure output, sau đó llm trả ra một structured output bao gồm một json có tên điểm, tọa độ, chuẩn mantanan, chuẩn Euclidian, sau đó là các step đi di chuyển điểm đó đến điểm mình muốn (hơi xàm ạ huhu).
 
 ## Features
 
